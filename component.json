@@ -2,7 +2,7 @@
 	"scripts": [
 		"js/dist/rpn.js"
 	],
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"name": "aureooms-js-rpn",
 	"repo": "aureooms/js-rpn",
 	"description": "reverse polish notation code bricks for JavaScript",
