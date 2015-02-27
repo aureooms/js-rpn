@@ -3,38 +3,32 @@
 	'use strict';
 
 
-/* js/src/pull.js */
+/* js/src/operand.js */
 
-var pull = function ( compile , isop , token , stack ) {
+var operand = function ( token , stack ) {
+
+	stack.push( token ) ;
+
+} ;
+
+exports.operand = operand ;
+
+/* js/src/operator.js */
+
+/**
+ * assert stack.length >= 2
+ */
+
+var operator = function ( compute , token , stack ) {
 
 	var a , b ;
 
-	if ( isop( token ) ) {
-
-		b  = stack.pop( ) ;
-		a  = stack.pop( ) ;
-		stack.push( compile( token , a , b ) ) ;
-
-	}
-
-	else {
-
-		stack.push( token ) ;
-
-	}
+	b  = stack.pop( ) ;
+	a  = stack.pop( ) ;
+	stack.push( compute( token , a , b ) ) ;
 
 } ;
 
-exports.pull = pull ;
-
-/* js/src/validate.js */
-
-var validate = function ( isop , token , stack ) {
-
-	return ! isop( token ) || stack.length >= 2 ;
-
-} ;
-
-exports.validate = validate ;
+exports.operator = operator ;
 
 })(typeof exports === 'undefined' ? this['rpn'] = {} : exports);
