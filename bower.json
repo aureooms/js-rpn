@@ -1,5 +1,5 @@
 {
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"name": "aureooms-js-rpn",
 	"homepage": "http://aureooms.github.io/js-rpn/",
 	"description": "reverse polish notation code bricks for JavaScript",
