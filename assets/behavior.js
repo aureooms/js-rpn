@@ -19,7 +19,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
         "pageTitle": "index",
         "title": "index"
       },
-      "depth": 1
+      "depth": 1,
+      "outline": []
     }, {
       "type": "file",
       "data": {
@@ -32,13 +33,14 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "foldPrefix": "^",
           "name": "JavaScript"
         },
-        "sourcePath": "/home/aureooms/dev/js/js-rpn/js/src/pull.js",
-        "projectPath": "js/src/pull.js",
-        "targetPath": "pull",
-        "pageTitle": "pull",
-        "title": "pull"
+        "sourcePath": "/home/aureooms/dev/js/js-rpn/js/src/operand.js",
+        "projectPath": "js/src/operand.js",
+        "targetPath": "operand",
+        "pageTitle": "operand",
+        "title": "operand"
       },
-      "depth": 1
+      "depth": 1,
+      "outline": []
     }, {
       "type": "file",
       "data": {
@@ -51,13 +53,14 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "foldPrefix": "^",
           "name": "JavaScript"
         },
-        "sourcePath": "/home/aureooms/dev/js/js-rpn/js/src/validate.js",
-        "projectPath": "js/src/validate.js",
-        "targetPath": "validate",
-        "pageTitle": "validate",
-        "title": "validate"
+        "sourcePath": "/home/aureooms/dev/js/js-rpn/js/src/operator.js",
+        "projectPath": "js/src/operator.js",
+        "targetPath": "operator",
+        "pageTitle": "operator",
+        "title": "operator"
       },
-      "depth": 1
+      "depth": 1,
+      "outline": []
     }
   ];
 
