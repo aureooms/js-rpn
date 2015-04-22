@@ -13,3 +13,4 @@ reverse polish notation code bricks for JavaScript
 [![Code Climate](http://img.shields.io/codeclimate/github/aureooms/js-rpn.svg?style=flat)](https://codeclimate.com/github/aureooms/js-rpn)
 [![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-rpn.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-rpn)
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-rpn.svg?style=flat)](https://github.com/aureooms/js-rpn/issues)
+[![Inline docs](http://inch-ci.org/github/aureooms/js-rpn.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-rpn)
