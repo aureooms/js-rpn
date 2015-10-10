@@ -15,7 +15,8 @@
 		"js",
 		"notation",
 		"polish",
-		"reverse"
+		"reverse",
+		"ender"
 	],
 	"bugs": {
 		"url": "https://github.com/aureooms/js-rpn/issues"
@@ -30,5 +31,8 @@
 		"type": "git",
 		"url": "https://github.com/aureooms/js-rpn.git"
 	},
-	"main": "js/dist/rpn.js"
+	"main": "js/dist/rpn.js",
+	"spm":{
+		"main": "js/dist/rpn.js"
+	}
 }
