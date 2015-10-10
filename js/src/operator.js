@@ -3,12 +3,10 @@
  * assert stack.length >= 2
  */
 
-var operator = function ( compute , token , stack ) {
+const operator = function ( compute , stack , token ) {
 
-	var a , b ;
-
-	b  = stack.pop( ) ;
-	a  = stack.pop( ) ;
+	const b = stack.pop( ) ;
+	const a = stack.pop( ) ;
 	stack.push( compute( token , a , b ) ) ;
 
 } ;

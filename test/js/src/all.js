@@ -103,32 +103,7 @@ function compute ( op , a , b ) {
 
 function compile ( tokens ) {
 
-	var i , token , stack = [ ] ;
-
-	for ( i = 0 ; i < tokens.length ; ++i ) {
-
-		token = tokens[i] ;
-
-		if ( isop( token ) ) {
-
-			if ( stack.length < 2 ) {
-				throw new Error( ( i + 1 ) + "th token is an operator while stack has length " + stack.length ) ;
-			}
-
-			rpn.operator( compute , token , stack ) ;
-
-		}
-
-		else {
-
-			rpn.operand( token , stack ) ;
-
-		}
-
-
-	}
-
-	return stack.pop( ) ;
+	return rpn.compile( isop , compute , [ ] , tokens ) ;
 
 }
 

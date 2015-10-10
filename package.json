@@ -6,7 +6,7 @@
 	},
 	"version": "1.0.1",
 	"devDependencies": {
-		"aureooms-node-package": "^2.0.3"
+		"aureooms-node-package": "^5.0.2"
 	},
 	"keywords": [
 		"bricks",

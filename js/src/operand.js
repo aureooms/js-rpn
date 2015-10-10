@@ -1,5 +1,5 @@
 
-var operand = function ( token , stack ) {
+const operand = function ( stack , token ) {
 
 	stack.push( token ) ;
 
