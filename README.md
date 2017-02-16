@@ -7,7 +7,7 @@ Reverse polish notation code bricks for JavaScript.
 compile( isop , compute , [ ] , [ "1" , "2" , "+" , "4" , "*" ] ) ; // 12
 ```
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-rpn.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-rpn/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-rpn.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-rpn/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-rpn.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-rpn)
 [![Bower version](https://img.shields.io/bower/v/@aureooms/js-rpn.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-rpn)
 [![Build Status](https://img.shields.io/travis/aureooms/js-rpn.svg?style=flat)](https://travis-ci.org/aureooms/js-rpn)
