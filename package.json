@@ -1,38 +1,38 @@
 {
-	"scripts": {
-		"doc": "./node_modules/.bin/groc",
-		"test": "./node_modules/.bin/aureooms-node-package-test",
-		"build": "./node_modules/.bin/aureooms-node-package-build"
-	},
-	"version": "2.0.0",
-	"devDependencies": {
-		"aureooms-node-package": "^6.0.1"
-	},
-	"keywords": [
-		"bricks",
-		"compiler",
-		"javascript",
-		"js",
-		"notation",
-		"polish",
-		"reverse",
-		"ender"
-	],
-	"bugs": {
-		"url": "https://github.com/aureooms/js-rpn/issues"
-	},
-	"license": "AGPL-3.0",
-	"dependencies": {},
-	"name": "@aureooms/js-rpn",
-	"homepage": "http://aureooms.github.io/js-rpn/",
-	"description": "reverse polish notation code bricks for JavaScript",
-	"author": "aureooms",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/aureooms/js-rpn.git"
-	},
-	"main": "js/dist/rpn.js",
-	"spm": {
-		"main": "js/dist/rpn.js"
-	}
+  "scripts": {
+    "doc": "./node_modules/.bin/groc",
+    "test": "./node_modules/.bin/aureooms-node-package-test",
+    "build": "./node_modules/.bin/aureooms-node-package-build"
+  },
+  "version": "3.0.0",
+  "devDependencies": {
+    "aureooms-node-package": "^6.0.1"
+  },
+  "keywords": [
+    "bricks",
+    "compiler",
+    "javascript",
+    "js",
+    "notation",
+    "polish",
+    "reverse",
+    "ender"
+  ],
+  "bugs": {
+    "url": "https://github.com/aureooms/js-rpn/issues"
+  },
+  "license": "AGPL-3.0",
+  "dependencies": {},
+  "name": "@aureooms/js-rpn",
+  "homepage": "http://aureooms.github.io/js-rpn/",
+  "description": "reverse polish notation code bricks for JavaScript",
+  "author": "aureooms",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aureooms/js-rpn.git"
+  },
+  "main": "js/dist/rpn.js",
+  "spm": {
+    "main": "js/dist/rpn.js"
+  }
 }
