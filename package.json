@@ -23,7 +23,7 @@
 	},
 	"license": "AGPL-3.0",
 	"dependencies": {},
-	"name": "aureooms-js-rpn",
+	"name": "@aureooms/js-rpn",
 	"homepage": "http://aureooms.github.io/js-rpn/",
 	"description": "reverse polish notation code bricks for JavaScript",
 	"author": "aureooms",
