@@ -19,7 +19,7 @@
     "ender"
   ],
   "bugs": {
-    "url": "https://github.com/aureooms/js-rpn/issues"
+    "url": "https://github.com/make-github-pseudonymous-again/js-rpn/issues"
   },
   "license": "AGPL-3.0",
   "dependencies": {},
@@ -29,7 +29,7 @@
   "author": "aureooms",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aureooms/js-rpn.git"
+    "url": "https://github.com/make-github-pseudonymous-again/js-rpn.git"
   },
   "main": "js/dist/rpn.js",
   "spm": {
