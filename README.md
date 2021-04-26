@@ -1,4 +1,4 @@
-[js-rpn](http://aureooms.github.io/js-rpn)
+[js-rpn](http://make-github-pseudonymous-again.github.io/js-rpn)
 ==
 
 Reverse polish notation code bricks for JavaScript.
